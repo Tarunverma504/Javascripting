@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Events in javascript</title>
+	<script>
+		function on_click()
+		{
+			alert('Hello onclick');
+		}
+		function double_click()
+		{
+			alert('Hello Double click');
+		}
+		function on_contextmenu()
+		{
+			alert("it's Right click");
+		}
+		function on_mouseenter()
+		{
+			alert("It's onmouseenter");
+		}
+		function on_mouseout()
+		{
+			alert("It's onmouseout");
+		}
+		function on_mousedown()
+		{
+			alert("It's onmoudedown");
+		}
+		function on_mouseup()
+		{
+			alert("It's onmouseup");
+		}
+	</script>
+</head>
+<body>
+	<button onclick='on_click()'>Click me</button>
+	<p ondblclick='double_click()'>Double Click</p>
+	<p oncontextmenu='on_contextmenu()'>Contextmenu</p>
+	<p onmouseenter="on_mouseenter()">onmouseenter</p>
+	<p onmouseout="on_mouseout()">onmouseout</p>
+	<p onmousedown="on_mousedown()">onmousedown click me</p>
+	<p onmouseup="on_mouseup()">onmouseup press hold and Release</p>
+</body>
+</html>
